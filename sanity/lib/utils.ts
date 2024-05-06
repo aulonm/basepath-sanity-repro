@@ -27,11 +27,11 @@ export function resolveHref(
 ): string | undefined {
   switch (documentType) {
     case 'home':
-      return '/'
+      return '/eneboliger/'
     case 'page':
-      return slug ? `/${slug}` : undefined
+      return slug ? `/eneboliger/${slug}` : undefined
     case 'project':
-      return slug ? `/projects/${slug}` : undefined
+      return slug ? `/eneboliger/projects/${slug}` : undefined
     default:
       console.warn('Invalid document type:', documentType)
       return undefined

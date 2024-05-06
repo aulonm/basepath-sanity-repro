@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const config = {
+  basePath: '/eneboliger',
   images: {
     remotePatterns: [
       { hostname: 'cdn.sanity.io' },

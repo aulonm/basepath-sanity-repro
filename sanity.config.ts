@@ -51,8 +51,9 @@ export default defineConfig({
     presentationTool({
       locate,
       previewUrl: {
+        preview: '/eneboliger',
         previewMode: {
-          enable: '/api/draft',
+          enable: '/eneboliger/api/draft',
         },
       },
     }),
